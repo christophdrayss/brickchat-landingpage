@@ -156,11 +156,9 @@
                                     <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
                                         <h3>brickchat is easy</h3>
                                         <ul>
-                                            <li><i class="icofont-minus""></i>brickchat consists of a node silo that guides the user through the conversation. These nodes can be adapted spontaneously and flexibly</li>
+                                            <li><i class="icofont-minus""></i>brickchat consists of a microservice ("nodes") silo that can be adapted on the fly</li>
                         
-                            <li><i class=" icofont-minus""></i>brickchat developers get access to a chat builder that
-                                                allowes quick customizations of the nodes. Automated scripts keep
-                                                the chat up-to-date</li>
+                            <li><i class=" icofont-minus""></i>brickchat developers get access to a chat builder that allowes quick customizations of the micro.</li>
                                         </ul>
 
                                     </div>
@@ -191,10 +189,9 @@
                         <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
                             <h3>brickchat is integrable</h3>
                             <ul>
-                                <li><i class="icofont-minus""></i>brickchat is event-based: all incoming messages from clients call generic scripts that reach out to outside services such as whatsapp, Zapier, Google APIs, Telegram, etc. etc.</li>
+                                <li><i class="icofont-minus""></i>brickchat is event-based: all incoming messages are consumed by subscribing microservices that can reach out to outside services such as whatsapp, Zapier, Google APIs, Telegram, etc. etc.</li>
                         
-                            <li><i class=" icofont-minus""></i>Through its decentralized structure, services can either
-                                    be hosted on brickchat’s infrastructure or on third-party servers</li>
+                            <li><i class=" icofont-minus""></i>Through its decentralized structure, services can either be deployed within brickchat’s infrastructure or on third-party servers</li>
                             </ul>
                         </div>
                     </div>
@@ -211,18 +208,11 @@
                 </div>
                 <div class="col-md-12 pt-4" data-aos="fade-up">
 
-                    <h3>brickchat is doing the heavylifting of chatbots while you can focus on the content and event
-                        scripts</h3>
+                    <h3>brickchat is doing the heavylifting of chatbots</h3>
 
-                    On one side, the brickchat framework consists of <span
+                    the brickchat framework consists of <span
                         class="badge badge-content-lable">content</span>, <span
                         class="badge badge-option-lable">option</span> and <span
-                        class="badge badge-move-lable">moves</span> that are stored in static databases and are
-                    accessible immediately after client requests:<br>
-                    <span class="badge badge-content-lable">content</span> Any kind of rich text content (html) structured in blocks<br>
-                    <span class="badge badge-option-lable">option</span> Any user input, such a selection of predefined option or free text<br>
-                    <span class="badge badge-move-lable">move</span> Flow definition, that steers the user through static or dynamically generated content<br><br>
-                    On the other side, the client interactions call <span
                         class="badge badge-service-lable">services</span> that provide dynamic data, such as available
                     stocks, weather data or any other data from outside brickchat servers. These services are lean
                     scripts triggered by callback/webhook methodology.
