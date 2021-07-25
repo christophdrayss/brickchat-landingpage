@@ -141,7 +141,7 @@ h6 {
 }
 
 #header.header-scrolled {
-    background: rgba(1, 4, 136, 0.9);
+    background: #8e86fd;
     height: 60px;
 }
 
@@ -438,7 +438,7 @@ h6 {
 
 #hero:before {
     content: "";
-    background: #6f65ff;
+    background: #8e86fd;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -1025,7 +1025,13 @@ section {
 }
 
 .details-image-container{
-    padding: 50px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.details-image{
+    border: 1px solid #878e94;
+    width: 100%;
 }
 
 
